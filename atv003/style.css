@@ -1,0 +1,16 @@
+body {
+    min-height: 100vh;
+}
+
+.card {
+    border-radius: 8px;
+}
+
+.card-header h4 {
+    margin: 0;
+}
+
+.form-control-color {
+    width: 80px;
+    height: 45px;
+}
