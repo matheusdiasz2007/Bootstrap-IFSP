@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Venda de Ingressos - Show</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Viva uma Experiência única.</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#ingressos">Ingressos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#duvidas">Dúvidas</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="banner">
+    <div class="container text-center text-white">
+      <span class="badge bg-warning text-dark mb-3">Últimos ingressos disponíveis</span>
+      <h1 class="display-4 fw-bold">Rock in Rio 2026</h1>
+      <p class="lead">Garanta seu ingresso para uma noite inesquecível de música, luzes e emoção.</p>
+      <a href="#ingressos" class="btn btn-primary btn-lg mt-3">Comprar ingresso</a>
+    </div>
+  </header>
+
+  <main class="container my-5">
+
+    <section id="ingressos" class="mb-5">
+      <h2 class="text-center mb-4">Tipos de Ingresso</h2>
+
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card ingresso-card">
+            <div class="card-body">
+              <h5 class="card-title">
+                Pista
+                <span class="badge bg-success">Popular</span>
+              </h5>
+              <p class="card-text">Acesso à área comum do evento.</p>
+              <h3>R$ 120,00</h3>
+              <button class="btn btn-outline-primary w-100 comprar-btn">Comprar</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card ingresso-card destaque">
+            <div class="card-body">
+              <h5 class="card-title">
+                Área VIP
+                <span class="badge bg-danger">Mais vendido</span>
+              </h5>
+              <p class="card-text">Visão privilegiada do palco e entrada exclusiva.</p>
+              <h3>R$ 250,00</h3>
+              <button class="btn btn-primary w-100 comprar-btn">Comprar</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card ingresso-card">
+            <div class="card-body">
+              <h5 class="card-title">
+                Camarote
+                <span class="badge bg-dark">Premium</span>
+              </h5>
+              <p class="card-text">Open bar, lounge exclusivo e melhor vista do show.</p>
+              <h3>R$ 480,00</h3>
+              <button class="btn btn-outline-primary w-100 comprar-btn">Comprar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="duvidas">
+      <h2 class="text-center mb-4">Informações do Evento</h2>
+
+      <div class="accordion" id="accordionEvento">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="tituloUm">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#itemUm">
+              Quando será o show?
+            </button>
+          </h2>
+          <div id="itemUm" class="accordion-collapse collapse show" data-bs-parent="#accordionEvento">
+            <div class="accordion-body">
+              O show acontecerá no dia 20 de julho de 2026, a partir das 20h.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="tituloDois">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itemDois">
+              Onde será realizado?
+            </button>
+          </h2>
+          <div id="itemDois" class="accordion-collapse collapse" data-bs-parent="#accordionEvento">
+            <div class="accordion-body">
+             Parque Olímpico da Barra da Tijuca, na Zona Oeste do Rio de Janeiro.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="tituloTres">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itemTres">
+              Quais documentos preciso levar?
+            </button>
+          </h2>
+          <div id="itemTres" class="accordion-collapse collapse" data-bs-parent="#accordionEvento">
+            <div class="accordion-body">
+              É necessário apresentar documento com foto e o ingresso digital ou impresso.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">Matheus Dias Pereira &copy; 2026 - Sistema de venda de ingressos</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
