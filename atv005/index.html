@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Venda de Ingressos - Show</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Viva uma experiência única.</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#destaques">Destaques</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#ingressos">Ingressos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#duvidas">Dúvidas</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="banner">
+    <div class="container text-center text-white">
+      <span class="badge bg-warning text-dark mb-3">Últimos ingressos disponíveis</span>
+      <h1 class="display-4 fw-bold">Rock in Rio 2026</h1>
+      <p class="lead">Garanta seu ingresso para uma noite inesquecível de música, luzes e emoção.</p>
+      <a href="#ingressos" class="btn btn-primary btn-lg mt-3">Comprar ingresso</a>
+    </div>
+  </header>
+
+  <main class="container my-5">
+
+    <section id="destaques" class="mb-5">
+      <h2 class="text-center mb-4">Destaques do Evento</h2>
+
+      <div id="carouselEvento" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselEvento" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Destaque 1"></button>
+          <button type="button" data-bs-target="#carouselEvento" data-bs-slide-to="1" aria-label="Destaque 2"></button>
+          <button type="button" data-bs-target="#carouselEvento" data-bs-slide-to="2" aria-label="Destaque 3"></button>
+        </div>
+
+        <div class="carousel-inner rounded-4 shadow">
+          <div class="carousel-item active">
+            <img src="https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=1400&q=80" class="d-block w-100" alt="Público em show ao vivo">
+            <div class="carousel-caption">
+              <h3>Grandes atrações no palco principal</h3>
+              <p>Uma programação especial para quem quer viver o festival de perto.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=1400&q=80" class="d-block w-100" alt="Show com iluminação colorida">
+            <div class="carousel-caption">
+              <h3>Estrutura completa para o público</h3>
+              <p>Som, luzes, praça de alimentação e áreas exclusivas para cada ingresso.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1400&q=80" class="d-block w-100" alt="Festival com multidão e luzes">
+            <div class="carousel-caption">
+              <h3>Escolha sua experiência</h3>
+              <p>Pista, área VIP ou camarote: encontre o ingresso ideal para você.</p>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselEvento" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselEvento" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Próximo</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="ingressos" class="mb-5">
+      <h2 class="text-center mb-4">Escolha seu Ingresso</h2>
+
+      <div class="card-group shadow rounded-4 overflow-hidden">
+        <div class="card ingresso-card">
+          <div class="card-body">
+            <h5 class="card-title">
+              Pista
+              <span class="badge bg-success">Popular</span>
+            </h5>
+            <p class="card-text">Acesso à pista comum para curtir o show com muita energia.</p>
+            <h3>R$ 120,00</h3>
+            <button class="btn btn-outline-primary w-100 comprar-btn">Comprar</button>
+          </div>
+        </div>
+
+        <div class="card ingresso-card destaque">
+          <div class="card-body">
+            <h5 class="card-title">
+              Área VIP
+              <span class="badge bg-danger">Mais vendido</span>
+            </h5>
+            <p class="card-text">Visão privilegiada do palco, entrada exclusiva e setor reservado.</p>
+            <h3>R$ 250,00</h3>
+            <button class="btn btn-primary w-100 comprar-btn">Comprar</button>
+          </div>
+        </div>
+
+        <div class="card ingresso-card">
+          <div class="card-body">
+            <h5 class="card-title">
+              Camarote
+              <span class="badge bg-dark">Premium</span>
+            </h5>
+            <p class="card-text">Open bar, lounge exclusivo e a melhor vista para o palco.</p>
+            <h3>R$ 480,00</h3>
+            <button class="btn btn-outline-primary w-100 comprar-btn">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="duvidas">
+      <h2 class="text-center mb-4">Informações do Evento</h2>
+
+      <div class="accordion" id="accordionEvento">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="tituloUm">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#itemUm" aria-expanded="true" aria-controls="itemUm">
+              Quando será o show?
+            </button>
+          </h2>
+          <div id="itemUm" class="accordion-collapse collapse show" data-bs-parent="#accordionEvento">
+            <div class="accordion-body">
+              O show acontecerá no dia 20 de julho de 2026, a partir das 20h.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="tituloDois">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itemDois" aria-expanded="false" aria-controls="itemDois">
+              Onde será realizado?
+            </button>
+          </h2>
+          <div id="itemDois" class="accordion-collapse collapse" data-bs-parent="#accordionEvento">
+            <div class="accordion-body">
+              Parque Olímpico da Barra da Tijuca, na Zona Oeste do Rio de Janeiro.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="tituloTres">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itemTres" aria-expanded="false" aria-controls="itemTres">
+              Quais documentos preciso levar?
+            </button>
+          </h2>
+          <div id="itemTres" class="accordion-collapse collapse" data-bs-parent="#accordionEvento">
+            <div class="accordion-body">
+              É necessário apresentar documento com foto e o ingresso digital ou impresso.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">Matheus Dias Pereira &copy; 2026 - Sistema de venda de ingressos</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
