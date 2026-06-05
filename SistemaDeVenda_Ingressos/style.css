@@ -1,0 +1,319 @@
+body {
+  background-color: #f5f6fa;
+  color: #232735;
+  scroll-behavior: smooth;
+}
+
+.banner {
+  min-height: 420px;
+  display: flex;
+  align-items: center;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.72)),
+    url("https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=1400&q=80") center/cover;
+  position: relative;
+}
+
+.navbar {
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.18);
+}
+
+.navbar-brand {
+  letter-spacing: 0;
+}
+
+.nav-link {
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #ffc107;
+  transform: translateY(-1px);
+}
+
+.banner .btn {
+  box-shadow: 0 12px 28px rgba(13, 110, 253, 0.35);
+}
+
+.carousel-item img {
+  height: 430px;
+  object-fit: cover;
+  filter: brightness(0.65);
+}
+
+.carousel-caption {
+  bottom: 2.5rem;
+}
+
+.carousel-caption h3 {
+  font-weight: 700;
+}
+
+.ingresso-card {
+  border: 0;
+  min-height: 260px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, outline-color 0.2s ease;
+}
+
+.ingresso-card:hover,
+.ingresso-card.selecionado {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.18);
+  z-index: 2;
+}
+
+.ingresso-card.selecionado {
+  outline: 3px solid rgba(13, 110, 253, 0.35);
+  outline-offset: -3px;
+}
+
+.ingresso-card .card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.ingresso-card h3 {
+  color: #0d6efd;
+  margin-top: auto;
+  margin-bottom: 20px;
+}
+
+.destaque {
+  border: 2px solid #0d6efd;
+}
+
+.formulario-compra {
+  border: 1px solid rgba(13, 110, 253, 0.12);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.formulario-compra:focus-within {
+  box-shadow: 0 14px 34px rgba(13, 110, 253, 0.12);
+  transform: translateY(-2px);
+}
+
+.resumo-compra {
+  border-left: 4px solid #0d6efd;
+}
+
+.accordion-button {
+  font-weight: 600;
+}
+
+.accordion-item {
+  border-color: rgba(13, 110, 253, 0.14);
+}
+
+footer {
+  margin-top: 60px;
+}
+
+@media (max-width: 768px) {
+  .carousel-item img {
+    height: 320px;
+  }
+
+  .carousel-caption {
+    bottom: 1rem;
+  }
+
+  .carousel-caption p {
+    display: none;
+  }
+}
+
+:root {
+  --cor-fundo: #f5f6fa;
+  --cor-texto: #0b1233;
+  --cor-superficie: #ffffff;
+  --cor-superficie-2: #eef3ff;
+  --cor-borda: rgba(13, 110, 253, 0.14);
+  --cor-primaria: #060606;
+  --cor-primaria-forte: #064db8;
+  --cor-destaque: #ff0783;
+  --sombra-suave: 0 14px 34px rgba(13, 110, 253, 0.12);
+  --sombra-card: 0 8px 22px rgba(0, 0, 0, 0.18);
+}
+
+[data-theme="dark"] {
+  --cor-fundo: #0b1020;
+  --cor-texto: #edf2ff;
+  --cor-superficie: #11182c;
+  --cor-superficie-2: #17213a;
+  --cor-borda: rgba(255, 255, 255, 0.12);
+  --cor-primaria: #4ea1ff;
+  --cor-primaria-forte: #86bdff;
+  --cor-destaque: #840e0e;
+  --sombra-suave: 0 18px 44px rgba(0, 0, 0, 0.34);
+  --sombra-card: 0 14px 34px rgba(0, 0, 0, 0.38);
+}
+
+* {
+  scroll-margin-top: 86px;
+}
+
+body {
+  background:
+    radial-gradient(circle at top left, rgba(13, 110, 253, 0.12), transparent 30%),
+    var(--cor-fundo);
+  color: var(--cor-texto);
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+.banner {
+  min-height: 500px;
+  isolation: isolate;
+}
+
+.banner::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0;
+  height: 130px;
+  background: linear-gradient(180deg, transparent, var(--cor-fundo));
+  z-index: -1;
+}
+
+.banner .badge {
+  box-shadow: 0 10px 26px rgba(255, 193, 7, 0.28);
+}
+
+.banner h1 {
+  text-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+}
+
+.navbar {
+  backdrop-filter: blur(12px);
+}
+
+.navbar .active {
+  color: var(--cor-destaque) !important;
+}
+
+.tema-btn {
+  min-width: 102px;
+}
+
+main section {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 0.45s ease, transform 0.45s ease;
+}
+
+main section.visivel {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+h2 {
+  color: var(--cor-texto);
+  font-weight: 800;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 64px;
+  height: 4px;
+  margin: 12px auto 0;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--cor-primaria), var(--cor-destaque));
+}
+
+.carousel-inner {
+  border: 1px solid var(--cor-borda);
+}
+
+.ingresso-card {
+  background: var(--cor-superficie);
+  border: 1px solid var(--cor-borda);
+  color: var(--cor-texto);
+  position: relative;
+  overflow: hidden;
+}
+
+.ingresso-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 5px;
+  background: linear-gradient(90deg, var(--cor-primaria), var(--cor-destaque));
+  opacity: 0.9;
+}
+
+.ingresso-card:hover,
+.ingresso-card.selecionado {
+  box-shadow: var(--sombra-card);
+}
+
+.ingresso-card.selecionado {
+  outline-color: rgba(13, 110, 253, 0.45);
+}
+
+.ingresso-card h3 {
+  color: var(--cor-primaria);
+}
+
+.destaque {
+  border-color: var(--cor-primaria);
+}
+
+.formulario-compra {
+  background: var(--cor-superficie) !important;
+  border-color: var(--cor-borda);
+  color: var(--cor-texto);
+}
+
+.formulario-compra:focus-within {
+  box-shadow: var(--sombra-suave);
+}
+
+.form-control,
+.form-select {
+  background-color: var(--cor-superficie-2);
+  border-color: var(--cor-borda);
+  color: var(--cor-texto);
+}
+
+.form-control:focus,
+.form-select:focus {
+  background-color: var(--cor-superficie);
+  border-color: var(--cor-primaria);
+  color: var(--cor-texto);
+  box-shadow: 0 0 0 0.24rem rgba(13, 110, 253, 0.2);
+}
+
+.form-control::placeholder {
+  color: rgba(128, 139, 164, 0.86);
+}
+
+.resumo-compra {
+  background: rgba(13, 110, 253, 0.11);
+  border-color: rgba(13, 110, 253, 0.24);
+  border-left: 4px solid var(--cor-primaria);
+  color: var(--cor-texto);
+}
+
+.accordion-item,
+.accordion-button {
+  background: var(--cor-superficie);
+  color: var(--cor-texto);
+}
+
+.accordion-item {
+  border-color: var(--cor-borda);
+}
+
+.accordion-button:not(.collapsed) {
+  background: rgba(13, 110, 253, 0.12);
+  color: var(--cor-primaria-forte);
+}
+
+[data-theme="dark"] .bg-dark {
+  background-color: #070b16 !important;
+}
+
+[data-theme="dark"] .btn-outline-secondary {
+  border-color: rgba(255, 255, 255, 0.32);
+  color: #edf2ff;
+}
