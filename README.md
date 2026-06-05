@@ -1,14 +1,20 @@
 # 🎟️ Sistema de Venda de Ingressos - Rock in Rio 2026
 
-<p align="center">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black">
-  <img src="https://img.shields.io/badge/Bootstrap-5.3-purple?logo=bootstrap&logoColor=white">
-</p>
+---
+
+![Projeto](https://img.shields.io/badge/Projeto-SistemaDeVenda-blue)
+![Framework](https://img.shields.io/badge/Framework-Bootstrap-orange)
+![Objetivo](https://img.shields.io/badge/Objetivo-DesenvolvimentoWeb-red)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?logo=javascript&logoColor=yellow)
+![Status](https://img.shields.io/badge/Status-Concluido-green)
 
 ---
 
+## 🔬 Acesso online
+
+👉 **[Clique aqui para acessar o Projeto.](https://matheusdiasz2007.github.io/Bootstrap_IFSP/)**
+
+---
 ## 📖 Sobre o Projeto
 
 O **Sistema de Venda de Ingressos - Rock in Rio 2026** é uma aplicação web desenvolvida para simular a comercialização de ingressos para eventos musicais.
@@ -17,7 +23,7 @@ O projeto utiliza **HTML5**, **CSS3**, **JavaScript** e **Bootstrap 5**, proporc
 
 ---
 
-## 🚀 Funcionalidades
+## ⚙️ Funcionalidades
 
 - 🎟️ Seleção de ingressos através de cards interativos
 - 💰 Cálculo automático do valor total da compra
@@ -121,7 +127,7 @@ O projeto foi desenvolvido para funcionar perfeitamente em:
 ## 📂 Estrutura do Projeto
 
 ```bash
-📦 sistema-ingressos
+📦 SistemaDeVenda_Ingressos
 ├── index.html
 ├── style.css
 ├── script.js
@@ -145,36 +151,24 @@ O projeto foi desenvolvido para funcionar perfeitamente em:
 
 ---
 
-## 📸 Preview
-
-Adicione uma captura de tela do projeto:
-
-```html
-<p align="center">
-  <img src="./assets/preview.png" width="800">
-</p>
-```
-
----
-
 ## ▶️ Como Executar
 
 Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/sistema-ingressos.git
+git clone https://github.com/matheusdiasz2007/Bootstrap_IFSP
 ```
 
 Entre na pasta:
 
 ```bash
-cd sistema-ingressos
+cd Curso_bootstrap
 ```
 
 Abra o arquivo:
 
 ```bash
-index.html
+SistemaDeVenda_Ingressos/index.html
 ```
 
 Ou utilize a extensão **Live Server** do VS Code.
@@ -185,12 +179,12 @@ Ou utilize a extensão **Live Server** do VS Code.
 
 ### Matheus Dias Pereira
 
-🎓 Análise e Desenvolvimento de Sistemas
+🎓 Engineer Software
 
 💻 Desenvolvedor Front-End
 
-🔗 GitHub: https://github.com/seu-usuario
-
----
+🔗 GitHub: https://github.com/matheusdiasz2007
 
 ⭐ Projeto desenvolvido para fins acadêmicos e prática de desenvolvimento web.
+
+---
