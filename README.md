@@ -171,7 +171,7 @@ Abra o arquivo:
 SistemaDeVenda_Ingressos/index.html
 ```
 
-Ou utilize a extensão **Live Server** do VS Code.
+Utilize a extensão **Live Server** do VS Code.
 
 ---
 
