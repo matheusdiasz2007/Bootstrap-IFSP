@@ -2,7 +2,7 @@
 
 ---
 
-![Projeto](https://img.shields.io/badge/Projeto-SistemaDeVenda-blue)
+![Projeto](https://img.shields.io/badge/Projeto-SalesSystem-blue)
 ![Framework](https://img.shields.io/badge/Framework-Bootstrap-orange)
 ![Objetivo](https://img.shields.io/badge/Objetivo-DesenvolvimentoWeb-red)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?logo=javascript&logoColor=yellow)
@@ -162,7 +162,7 @@ git clone https://github.com/matheusdiasz2007/Bootstrap_IFSP
 Entre na pasta:
 
 ```bash
-cd Curso_bootstrap
+cd Bootstrap_IFSP
 ```
 
 Abra o arquivo:
