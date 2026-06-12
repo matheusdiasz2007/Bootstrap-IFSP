@@ -1,13 +1,18 @@
-# 🎟️ Sistema de Venda de Ingressos - Rock in Rio 2026
+<p align="center">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="140" alt="Bootstrap Logo">
+</p>
 
----
-
+<div align="center">
+  
 ![Projeto](https://img.shields.io/badge/Projeto-SalesSystem-blue)
 ![Framework](https://img.shields.io/badge/Framework-Bootstrap-orange)
 ![Objetivo](https://img.shields.io/badge/Objetivo-DesenvolvimentoWeb-red)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?logo=javascript&logoColor=yellow)
 ![Status](https://img.shields.io/badge/Status-Concluido-green)
+  
+</div>  
 
+# 🎟️ Sistema de Venda de Ingressos - Rock in Rio 2026
 ---
 
 ## 🔬 Acesso online
