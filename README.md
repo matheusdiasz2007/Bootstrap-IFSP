@@ -6,7 +6,7 @@
   
 ![Projeto](https://img.shields.io/badge/Projeto-SalesSystem-blue)
 ![Framework](https://img.shields.io/badge/Framework-Bootstrap-orange)
-![Objetivo](https://img.shields.io/badge/Objetivo-DesenvolvimentoWeb-red)
+![Objetivo](https://img.shields.io/badge/Objetivo-DesenvolvimentoWeb-purple)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?logo=javascript&logoColor=yellow)
 ![Status](https://img.shields.io/badge/Status-Concluido-green)
   
