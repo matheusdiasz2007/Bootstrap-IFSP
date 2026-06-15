@@ -138,14 +138,13 @@ sales-system/
 ├── js/
 │   ├── main.js
 │   ├── modules/
-│   └── formHandler.js
-|   └── scrollObserver.js
-|   └── ticketSelector.js
-│   └── theme.js
+│   │   ├── formHandler.js
+│   │   ├── scrollObserver.js
+│   │   ├── ticketSelector.js
+│   │   └── theme.js
 │   └── utils/
-|   └── helpers.js
+│       └── helpers.js
 └── index.html
-
 ---
 
 ## 🧠 Conceitos Aplicados
@@ -180,7 +179,7 @@ cd Bootstrap_IFSP
 Abra o arquivo:
 
 ```bash
-SistemaDeVenda_Ingressos/index.html
+Sales-system/index.html
 ```
 
 Utilize a extensão **Live Server** do VS Code.
