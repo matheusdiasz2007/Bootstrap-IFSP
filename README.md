@@ -145,6 +145,8 @@ sales-system/
 │   └── utils/
 │       └── helpers.js
 └── index.html
+```
+
 ---
 
 ## 🧠 Conceitos Aplicados
