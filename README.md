@@ -132,12 +132,19 @@ O projeto foi desenvolvido para funcionar perfeitamente em:
 ## 📂 Estrutura do Projeto
 
 ```bash
-📦 SistemaDeVenda_Ingressos
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-```
+sales-system/
+├── css/
+│   └── style.css
+├── js/
+│   ├── main.js
+│   ├── modules/
+│   └── formHandler.js
+|   └── scrollObserver.js
+|   └── ticketSelector.js
+│   └── theme.js
+│   └── utils/
+|   └── helpers.js
+└── index.html
 
 ---
 
