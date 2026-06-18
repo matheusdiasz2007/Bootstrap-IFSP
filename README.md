@@ -16,7 +16,7 @@
 
 ## 🔬 Acesso online
 
-👉 **[Clique aqui para acessar o Projeto.](https://matheusdiasz2007.github.io/Bootstrap_IFSP/)**
+👉 **[Clique aqui para acessar o SalesSystem.](https://matheusdiasz2007.github.io/Bootstrap_IFSP/)**
 
 ---
 ## 📖 Sobre o Projeto
