@@ -11,8 +11,9 @@
   
 </div>  
 
-# 🎟️ Sistema de Venda de Ingressos - Rock in Rio 2026
 ---
+
+# 🎟️ Sistema de Venda de Ingressos - Rock in Rio 2026
 
 ## 🔬 Acesso online
 
