@@ -198,6 +198,8 @@ Utilize a extensão **Live Server** do VS Code.
 
 🔗 GitHub: https://github.com/matheusdiasz2007
 
+🔗 Linkedin https://www.linkedin.com/in/matheus-dias-pereira-th2007/
+
 ⭐ Projeto desenvolvido para fins acadêmicos e prática de desenvolvimento web.
 
 ---
