@@ -169,13 +169,13 @@ sales-system/
 Clone o repositório:
 
 ```bash
-git clone https://github.com/matheusdiasz2007/Bootstrap_IFSP
+git clone https://github.com/matheusdiasz2007/Bootstrap-IFSP
 ```
 
 Entre na pasta:
 
 ```bash
-cd Bootstrap_IFSP
+cd Bootstrap-IFSP
 ```
 
 Abra o arquivo:
