@@ -194,8 +194,6 @@ Utilize a extensão **Live Server** do VS Code.
 
 🎓 Engineer Software
 
-💻 Desenvolvedor Front-End
-
 🔗 GitHub: https://github.com/matheusdiasz2007
 
 🔗 Linkedin https://www.linkedin.com/in/matheus-dias-pereira-th2007/
